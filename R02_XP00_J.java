@@ -1,11 +1,6 @@
-public class R02_XP00_J {
-
-    public void deleteFile(){
+public void deleteFile(){
  
-        File someFile = new File("someFileName.txt");
-        // Do something with someFile
-        someFile.delete();
-       
-      }
-
+    File someFile = new File("someFileName.txt");
+    // Do something with someFile
+    someFile.delete();
 }
